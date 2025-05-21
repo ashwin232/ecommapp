@@ -1,3 +1,68 @@
+About:-
+This is a Mini E-commerce App built using React Native, designed to showcase key functionalities of a basic shopping application. It allows users to browse a catalog of products, view detailed product information, and manage a shopping cart with real-time updates and local persistence.
+
+🚀 Features
+Product List Page
+
+Fetches and displays products from Fake Store API.
+
+Products are displayed in a clean, responsive grid layout.
+
+Each product includes:
+
+Title
+
+Price
+
+Image
+
+Rating
+
+Product Detail Page
+
+Displays detailed product information when a product is selected.
+
+Includes:
+
+Full Description
+
+Image
+
+Price
+
+Rating & Rating Count
+
+“Add to Cart” functionality
+
+Cart Page
+
+Shows all items added to the cart.
+
+Allows quantity adjustments per item.
+
+Displays the total cart value.
+
+Cart data is persisted using AsyncStorage (React Native local storage).
+
+State Management
+
+Uses React Context API for global cart state management.
+
+Efficient, scalable, and easy to maintain.
+
+📂 Tech Stack
+React Native
+
+Context API for state management
+
+React Navigation for screen routing
+
+AsyncStorage for local persistence
+
+Axios or Fetch API for data fetching
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
